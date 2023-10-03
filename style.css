@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 10%;
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+main{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.rightSection{
+    display: flex;
+    align-items: center;
+}
+.signBtn{
+    margin-right: 10%;
+    width: 5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    color: #1D1D1D;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+}
+.searchBar{
+    margin-top: 5%;
+    width: 100%;
+    border: none;
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: 1px solid #757575;
+}
+.restInMos{
+    margin-top: 7%;
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin: 1rem 0;
+    width:32%;
+}
+.description{
+    padding: 1rem 0;
+}
+.name{
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.type{
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.time{
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.card img{
+    width: 100%;
+}
+footer{
+    margin-top: 5%;
+    background-color: #262626;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.logoFooter{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #757575;
+}
+.langBtn{
+    display: flex;
+    background-color: #3B3B3B;
+    width: 70%;
+}
+.langBtn > p{
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.iconBtn{
+    background: #3B3B3B;
+    border: none;
+    margin-left: auto;
+}
+.hashtag{
+    margin-top: 7%;
+    color: #FFF;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hashtag span{
+    color: #49A144;
+}
+.socialMedia{
+    margin-top: 5%;
+    display: flex;
+    column-gap: 3%;
+}
+.box{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #757575;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container a{
+    padding-bottom: 6%;
+}
+.apps{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #757575;
+}
+.info{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3%;
+}
+.info p{
+    color: #FFF;
+    font-family: Roboto,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
