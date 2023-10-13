@@ -222,3 +222,119 @@ footer{
         grid-template-columns: none;
     }
 }
+
+.imgBlock {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-image: url("Restaurant/photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 30%;
+    padding: 3rem 3rem;
+    background: #FFFFFF;
+}
+.block>p{
+    margin-top: 0;
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.underBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.timeOval{
+    padding: 2% 2%;
+    margin-right: 10%;
+    background: #262626;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.typeBlock{
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu{
+    display: flex;
+    column-gap: 5%;
+    padding: 2% 10% 2% 10%;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.20);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.currentCategory{
+    padding-top: 5%;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+.cards_food{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 70px;
+}
+.card_food{
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    border:  1px solid rgba(117, 117, 117, 0.20);
+}
+.description_food{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column ;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.name_food_description{
+    margin: 0;
+}
+.name_food{
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.extra_food{
+    color: #626262;
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.price{
+    margin-bottom: 10%;
+    color: #1D1D1D;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
